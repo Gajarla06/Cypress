@@ -1,0 +1,51 @@
+[
+  {
+    "description": "I want to shop on Tools QA Shopping Website",
+    "keyword": "Feature",
+    "name": "Shopping on Tools QA",
+    "line": 1,
+    "id": "shopping-on-tools-qa",
+    "tags": [],
+    "uri": "ToolsQAShop.feature",
+    "elements": [
+      {
+        "id": "shopping-on-tools-qa;placing-order-for-2-shirts",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Placing Order for 2 Shirts",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the Account Page for Tools QA",
+            "result": {
+              "status": "undefined",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I do the registration for my user by entering username as \"aashishk17\" and email address as",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "click on rent",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "description": "Search of the cars availiable for rent",
+    "keyword": "Feature",
+    "name": "To rent car",
+    "line": 1,
+    "id": "to-rent-car",
+    "tags": [],
+    "uri": "CarRent.feature",
+    "elements": [
+      {
+        "id": "to-rent-car;search-for-car-to-rent",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Search for car to rent",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Open the url to rent car",
+            "result": {
+              "status": "passed",
+              "duration": 2475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Fill all the fields to search for cars availiable for rent for specific dates",
+            "result": {
+              "status": "passed",
+              "duration": 1443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

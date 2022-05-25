@@ -1,0 +1,53 @@
+[
+  {
+    "description": "I want to shop on Tools QA Shopping Website",
+    "keyword": "Feature",
+    "name": "Shopping on Tools QA",
+    "line": 1,
+    "id": "shopping-on-tools-qa",
+    "tags": [],
+    "uri": "QAShop.feature",
+    "elements": [
+      {
+        "id": "shopping-on-tools-qa;placing-order-for-2-shirts",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Placing Order for 2 Shirts",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the Account Page for Tools QA",
+            "result": {
+              "status": "passed",
+              "duration": 1936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I do the registration for my user by entering username as \"aashishk17\" and email address as",
+            "result": {
+              "status": "failed",
+              "duration": 13000000,
+              "error_message": "Error: Syntax error, unrecognized expression: //*[@id=\"search_form\"]/button\n    at Function.Sizzle.error (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:113474:8)\n    at Sizzle.tokenize (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:114126:11)\n    at Sizzle.select (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:114553:20)\n    at Function.Sizzle [as find] (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:112778:9)\n    at jQuery.fn.init.find (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:114809:11)\n    at new jQuery.fn.init (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:114924:40)\n    at Object.query (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:190347:10)\n    at $Cy.$$ (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:169248:65)\n    at getElements (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:164592:20)\nFrom previous event:\n    at resolveElements (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:164642:67)\n    at Context.get (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:164653:14)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:177222:15\nFrom previous event:\n    at CommandQueue.runCommand (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:177201:17)\n    at next (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:177355:19)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:177384:16\nFrom previous event:\n    at next (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:177355:39)\nFrom previous event:\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:192229:77\nFrom previous event:\n    at CommandQueue.run (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:192224:21)\n    at CommandQueue.run (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:177418:15)\n    at $Cy.cy.<computed> [as then] (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:178476:18)\n    at Context.runnable.fn (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:178704:19)\n    at callFn (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129491:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129478:7)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185786:30\nFrom previous event:\n    at Object.onRunnableRun (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185771:19)\n    at $Cypress.action (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:174866:28)\n    at Test.Runnable.run (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:183435:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:130150:10)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:130276:12\n    at next (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:130059:14)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:130069:7\n    at next (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129971:14)\n    at Hook.<anonymous> (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:130032:7)\n    at next (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185681:24)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185710:13\nFrom previous event:\n    at onNext (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185707:59)\n    at done (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129431:5)\n    at callFn (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129514:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129478:7)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185786:30\nFrom previous event:\n    at Object.onRunnableRun (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:185771:19)\n    at $Cypress.action (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:174866:28)\n    at Hook.Runnable.run (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:183435:13)\n    at next (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:129993:10)\n    at http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:130037:5\n    at timeslice (http://qalab.pl.tivixlabs.com/__cypress/runner/cypress_runner.js:123963:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click on rent",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

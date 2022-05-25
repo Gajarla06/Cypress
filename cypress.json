@@ -1,0 +1,9 @@
+{
+    "testFiles": "**/*.feature", 
+    "viewportWidth": 1366,
+    "viewportHeight": 768,
+    "pageLoadTimeout": 60000,
+    "requestTimeout":60000
+  
+
+}
